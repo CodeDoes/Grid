@@ -1,0 +1,46 @@
+* {
+	/* box-sizing: border-box; */
+}
+
+body {
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+.p-1 {
+	padding: 1rem;
+}
+.border-primary {
+	border: 1px solid red;
+}
+.overflow-auto {
+	overflow: auto;
+}
+.max-w-10rem {
+	max-width: 10rem;
+	width: 100%;
+}
+.max-w-20rem {
+	max-width: 20rem;
+	width: 100%;
+}
+.h-100vh {
+	height: 100vh;
+}
+.vbox {
+	display: flex;
+	flex-direction: column;
+}
+.hbox {
+	display: flex;
+	flex-direction: row;
+}
+.vbox.reverse {
+  flex-direction: column-reverse;
+}
+.hbox.reverse {
+  flex-direction: row-reverse;
+}
+.flex-grow-1 {
+	flex-grow: 1;
+}
